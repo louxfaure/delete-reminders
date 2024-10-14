@@ -1,0 +1,44 @@
+<div id="footer">
+  <p>
+    <a [routerLink]="" (click)="setLang('en')">English</a> | 
+    <a [routerLink]="" (click)="setLang('fr')">Français</a>
+  </p>
+</div>
+<ng-container
+  *ngIf="sets.length>0; then containssets; else nosets">
+</ng-container>
+
+<ng-template #nosets>
+  <div [innerHTML]="'Translate.NoReminders' | translate" translate>
+  </div>
+</ng-template>
+
+
+<ng-template #containssets>
+  <div *ngIf="sets.length>0">
+    <div class="eca-actions">
+      <button mat-flat-button color="primary" (click)="delete()"
+      [disabled]="!ids.size">
+      {{ 'Translate.Button' | translate }}
+      </button>
+    </div>   
+    <div >
+      <p >{{ 'Translate.Select' | translate }}</p>
+      <p [innerHTML]="'Translate.NumReminders' | translate:{ num: ids.size }" translate></p>
+      <app-select-entities #selectEntities 
+        (entitySelected)="onEntitySelected($event)"
+        [entityList]="sets"
+        [selectedEntities]="ids">
+      </app-select-entities>
+    </div>
+  </div>
+</ng-template>
+
+<div class="loading-shade" *ngIf="loading">
+  <mat-progress-spinner 
+    [mode]="showProgress ? 'determinate' : 'indeterminate'"
+    diameter="50"
+    [value]="percentComplete"
+    >
+  </mat-progress-spinner>
+</div>

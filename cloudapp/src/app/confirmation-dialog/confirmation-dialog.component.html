@@ -1,0 +1,13 @@
+<h2 mat-dialog-title>{{ 'Translate.ConfirmTitle' | translate }}</h2>
+<mat-dialog-content>
+  <p translate>{{ 'Translate.ConfirmDelCount' | translate: { delNum: deleteCount } }}</p>
+  <ul *ngIf="includesPublic.length>0"> 
+    <li *ngFor="let set of includesPublic">
+      {{ set.entity.description }}
+    </li>
+  </ul>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-flat-button color="secondary" mat-dialog-close>{{ 'Translate.ConfirmCancel' | translate }}</button>
+  <button mat-flat-button color="secondary" [mat-dialog-close]="true" cdkFocusInitial>{{ 'Translate.ConfirmYes' | translate }}</button>
+</mat-dialog-actions>

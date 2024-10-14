@@ -1,0 +1,13 @@
+{
+	"Translate": {
+		"Button": "Delete",
+		"ConfirmTitle": "Delete Reminders",
+		"DeleteSuc": "Set deletion succesful!",
+		"NoReminders": "This app allowing you to bulk delete Reminders. To use it, navigate to <b>Resources > Cataloging > Reminders</b>.",
+		"NumReminders": "<i>A total of <strong>{{ num }}</strong> items have been selected.</i>",
+		"Select": "The list below shows all the reminders listed on the Reminder Management page. These can be filtered by creation date, reminder type or reminder status.",
+		"ConfirmDelCount": "Are you sure you want to delete {{ delNum }} reminder(s)?",
+		"ConfirmCancel": "Cancel",
+		"ConfirmYes": "Yes, delete reminders"
+	}
+}

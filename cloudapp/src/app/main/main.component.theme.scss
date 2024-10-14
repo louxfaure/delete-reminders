@@ -1,0 +1,8 @@
+@mixin main-component-theme($theme, $typgraphy) {
+  div.highlight {
+    border: #2C3649 solid 2px;
+    background-color: #2C3649;
+    padding: 5px;
+    font-weight: bolder;
+  }
+}

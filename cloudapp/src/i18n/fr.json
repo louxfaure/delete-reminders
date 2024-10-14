@@ -1,0 +1,13 @@
+{
+	"Translate": {
+		"Button": "Supprimer",
+		"ConfirmTitle": "Supprimer les rappels",
+		"DeleteSuc": "Succés de la suppression des rappels !",
+		"NoReminders": "Cette Cloud App vous permet de supprimer par lot les rappels. Pour l'utiliser allez dans le menu <b>Ressources > Catalogage > Rappels</b>.",
+		"NumReminders": "<i><strong>{{ num }}</strong> rappels ont été sélectionnés.</i>",
+		"Select": "La liste ci-dessous affiche tous les rappels listés sur la page de Gestion des rappels. Ces derniers peuvent être filtrés en utilisant la date de création, le type de rappel ou le statut du rappel.",
+		"ConfirmDelCount": "Etes vous sûr de vouloir supprimer {{ delNum }} rappel(s)?",
+		"ConfirmCancel": "Non, annuler l'opération",
+		"ConfirmYes": "Oui, supprimer les rappels"
+	}
+}

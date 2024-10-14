@@ -1,0 +1,45 @@
+{
+   "id": "delete-Reminders",
+   "title": [
+      {
+         "lang": "en",
+         "text": "Delete Reminders"
+      },
+      {
+         "lang": "fr",
+         "text": "Supprimer les rappels"
+      }
+   ],
+   "subtitle": [
+      {
+         "lang": "en",
+         "text": "Enables a user to bulk delete reminders"
+      },
+      {
+         "lang": "fr",
+         "text": "Offre la possibilité de supprimer les rappels par lot"
+      }
+   ],
+   "author": "Alex Faure",
+   "description": [
+      {
+         "lang": "en",
+         "text": "Enables a user to bulk delete reminders"
+      },
+      {
+         "lang": "fr",
+         "text": "Offre la possibilité de supprimer les rappels par lot"
+      }
+   ],
+   "entities": [
+      "REMINDERS"
+   ],
+   "icon": {
+      "type": "font",
+      "value": "fa fa-trash"
+   },
+   "pages": {
+      "help": ""
+   },
+   "license": ""
+}
