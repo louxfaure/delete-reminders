@@ -1,4 +1,4 @@
-#DELETE REMINDERS
+# DELETE REMINDERS
 
 This application allows you to batch delete reminders associated with bibliographic records. 
 1. From the **Resources > Cataloguing > Reminders** page, filter the list of reminders you wish to delete.
